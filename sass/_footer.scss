@@ -1,0 +1,54 @@
+@import 'font';
+
+#footer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    font-family: $font-vazir;
+
+}
+
+.ertebat {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    float: left;
+
+    i {
+        background-color: #fff;
+        border-radius: 10px;
+
+        font-size: 40px;
+
+        color: $rangFontBold;
+
+        &:hover {
+            color: $ranghover;
+        }
+    }
+}
+
+.address {
+    font-size: small;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    color: $rangFontNormal;
+
+    i {
+        font-size: 30px;
+        float: right;
+        color: $rangFontNormal;
+        padding-left: 15px;
+    }
+}
+
+.username {
+    color: $rangFontNormal;
+    text-decoration: none;
+
+    &:hover {
+        color: $ranghover;
+        cursor: pointer;
+    }
+}

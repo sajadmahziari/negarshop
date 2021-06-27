@@ -1,0 +1,73 @@
+@import 'font';
+
+#topview {
+    margin-top: 60px;
+ 
+
+}
+.swiper-container {
+  width: 100%;
+  height: 350px;
+}
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+border-radius: 10px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;  
+  
+  .imgslid{
+  position: absolute;
+  top: 5px;
+    width: 100%;
+  }
+.matnimg{
+  position: absolute;
+  bottom: 35px;
+  font-family: $font-vazir;
+font-weight: lighter;
+font-size: 15px;
+  color: $rangFontNormal;
+}
+.bi-cart{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.hazinepor{
+  position: absolute;
+  bottom: 0%;
+  left: 15px;
+  font-size: 13px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+

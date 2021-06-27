@@ -1,0 +1,519 @@
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+body {
+  background-color: #f0efeb;
+  direction: rtl;
+  padding: 1% 7% 0% 7%;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+#header {
+  font-family: vazir;
+  width: 100%;
+  height: 100px;
+}
+
+#header #headrast {
+  position: relative;
+}
+
+#header #headrast img {
+  position: absolute;
+  top: 25px;
+  right: 10%;
+  width: 120px;
+}
+
+#header .bi-search {
+  position: absolute;
+  font-size: 20px;
+  float: left;
+  text-align: justify;
+  left: 2px;
+  top: -2px;
+}
+
+#header #headvasat {
+  position: relative;
+  font-size: small;
+  font-weight: lighter;
+}
+
+#header #headvasat .jostejotxt {
+  position: absolute;
+  margin-left: 5px;
+  top: 25px;
+  right: 0%;
+  border-color: transparent;
+  width: 77%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#header #headvasat .jostejobtn {
+  margin-right: 5px;
+  color: #777676;
+  position: absolute;
+  top: 25px;
+  left: 0%;
+  height: 30px;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#header #headvasat .jostejobtn:hover {
+  background-color: #616161;
+  color: #fff;
+  border-color: transparent;
+}
+
+#headchap {
+  position: relative;
+}
+
+#headchap .condeadchap {
+  position: relative;
+  position: absolute;
+  right: 10%;
+}
+
+#headchap .condeadchap p {
+  display: inline;
+  color: #888781;
+}
+
+#headchap .condeadchap h6 {
+  color: #777676;
+  font-weight: bold;
+}
+
+#headchap .condeadchap svg {
+  position: absolute;
+  top: 30%;
+  width: 50px;
+  background-color: #c5c4b9;
+  border-radius: 50%;
+}
+
+.navbars {
+  padding-top: 10px;
+}
+
+.navbars li {
+  font-family: vazir;
+  display: inline;
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #888781;
+}
+
+.navbars li:hover {
+  color: #4b4b4b;
+}
+
+#chapnavbarz {
+  background-color: rgba(78, 196, 0, 0.781);
+  border-radius: 15px;
+  height: 50px;
+  color: #fff;
+  position: relative;
+}
+
+.conchapnavbarz {
+  position: relative;
+}
+
+.conchapnavbarz svg {
+  position: absolute;
+  right: 0%;
+  top: 15px;
+}
+
+.conchapnavbarz h6,
+.conchapnavbarz p {
+  line-height: 10px;
+  padding-right: 50px;
+  padding-top: 5px;
+}
+
+.rial {
+  color: rgba(78, 196, 0, 0.781);
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.namayeshkharid {
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 2;
+  display: block;
+  padding-bottom: 3px;
+  width: 250px;
+}
+
+.namayeshkharid .imgs {
+  width: 70px;
+  margin-right: 30%;
+}
+
+.namayeshkharid .esmbrand {
+  color: #4e4e4e;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.namayeshkharid .poll {
+  color: #838383;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #747474;
+  padding-bottom: 10px;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+#cros {
+  margin-top: 5%;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+}
+
+#cros img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#cros .carousel-control-next-icon,
+#cros .carousel-control-prev-icon {
+  color: blanchedalmond;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#album {
+  margin-top: 3%;
+}
+
+#album img {
+  border-radius: 10px;
+  margin-left: 7px;
+  width: 24%;
+  height: 180px;
+}
+
+#album .albu {
+  margin: auto;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+#topview {
+  margin-top: 60px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 350px;
+}
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 10px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .imgslid {
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+
+.swiper-slide .matnimg {
+  position: absolute;
+  bottom: 35px;
+  font-family: vazir;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #888781;
+}
+
+.swiper-slide .bi-cart {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.swiper-slide .hazinepor {
+  position: absolute;
+  bottom: 0%;
+  left: 15px;
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+#subfooter {
+  width: 100%;
+  height: 300px;
+  margin-top: 120px;
+  font-family: vazir;
+}
+
+#subfooter ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.conpsubfooter {
+  text-align: right;
+  color: #888781;
+  font-size: small;
+}
+
+.asubfoot {
+  color: #888781;
+  text-decoration: none;
+  white-space: nowrap;
+  margin-left: 50px;
+  font-size: smaller;
+}
+
+.asubfoot:hover {
+  color: #424242;
+  cursor: pointer;
+}
+
+.headsubfooter {
+  color: #888781;
+  white-space: nowrap;
+  font-size: small;
+  text-align: right;
+  padding-bottom: 15px;
+}
+
+.headsubfooterc {
+  font-weight: bolder;
+  font-size: x-large;
+  text-align: center;
+  color: #777676;
+}
+
+.psubfooter {
+  text-align: center;
+  color: #777676;
+  font-size: small;
+}
+
+.lisubfoot {
+  text-align: right;
+}
+
+#subfooter5 .asubfoot:hover {
+  color: #ff6868;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+  font-family: nastaliq;
+  src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+  src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: bykan;
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  font-family: vazir;
+}
+
+.ertebat {
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  float: left;
+}
+
+.ertebat i {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 40px;
+  color: #777676;
+}
+
+.ertebat i:hover {
+  color: #424242;
+}
+
+.address {
+  font-size: small;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  color: #888781;
+}
+
+.address i {
+  font-size: 30px;
+  float: right;
+  color: #888781;
+  padding-left: 15px;
+}
+
+.username {
+  color: #888781;
+  text-decoration: none;
+}
+
+.username:hover {
+  color: #424242;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

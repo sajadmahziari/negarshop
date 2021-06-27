@@ -1,0 +1,39 @@
+@import 'font';
+
+#cros {
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+z-index: 1;
+
+    img {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        color: blanchedalmond;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+#album {
+    margin-top: 3%;
+
+
+    img {
+        border-radius: 10px;
+        margin-left: 7px;
+        width: 24%;
+        height: 180px;
+    }
+
+    .albu {
+        margin: auto;
+    }
+}

@@ -1,0 +1,37 @@
+$rangBackGround:#f0efeb;
+
+$rangFontNormal:#888781;
+$rangFontBold:#777676;
+$rangavator:#c5c4b9;
+
+$rangdocme:#616161;
+
+
+$ranghover:#424242;
+
+
+$font-vazir:vazir;
+$font-nastaliq:nastaliq;
+$font-biykan:bykan;
+$font-lalezar:lalezar;
+
+@font-face {
+    font-family: vazir;
+    src: url(../font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+@font-face {
+    font-family: nastaliq;
+    src: url(IranNastaliq.ttf);
+}
+
+@font-face {
+    font-family: lalezar;
+    src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+    src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf) format('otf');
+}
+
+@font-face {
+    font-family: bykan;
+    src: url(../font/B_Yekan/Yekan.ttf);
+}
